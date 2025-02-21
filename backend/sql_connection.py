@@ -8,6 +8,6 @@ def get_sql_connection():
   global __cnx
 
   if __cnx is None:
-    __cnx = mysql.connector.connect(user='root', password='root', database='grocery_store')
+    __cnx = mysql.connector.connect(user='root', password='REMOVED', database='grocery_store')
 
   return __cnx
